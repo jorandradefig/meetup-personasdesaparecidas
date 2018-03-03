@@ -193,31 +193,31 @@ export default class Presentation extends React.Component {
             Important Lessons
           </Heading>
           <List>
-            <ListItem textSize="30px">
+            <ListItem textSize="20px">
               Don't trust third-party libraries too much, use the official solutions whenever possible
             </ListItem>
-            <ListItem textSize="30px">
+            <ListItem textSize="20px">
               Take advantage of the App lifecycle to release memory
             </ListItem>
-            <ListItem textSize="30px">
+            <ListItem textSize="20px">
               Observables are not for everything, combine them with Promises
             </ListItem>
-            <ListItem textSize="30px">
+            <ListItem textSize="20px">
               Master the call-site concept for `this` usage through component Classes
             </ListItem>
-            <ListItem textSize="30px">
+            <ListItem textSize="20px">
               Service Workers save a lot of resources
             </ListItem>
-            <ListItem textSize="30px">
+            <ListItem textSize="20px">
               ID Tracking, loop performace, services, lyfecyle, etc. matter a lot when handling too much data in the DOM
             </ListItem>
-            <ListItem textSize="30px">
+            <ListItem textSize="20px">
               Reuse as much as possible since the beginning
             </ListItem>
-            <ListItem textSize="30px">
+            <ListItem textSize="20px">
               Tests help but bugs are inevitable
             </ListItem>
-            <ListItem textSize="30px">
+            <ListItem textSize="20px">
               Save one global state with services and manipulate data through them
             </ListItem>
           </List>
