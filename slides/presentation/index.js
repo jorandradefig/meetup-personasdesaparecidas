@@ -189,6 +189,40 @@ export default class Presentation extends React.Component {
           </List>
         </Slide>
         <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
+          <Heading size={1} lineHeight={1} textColor="tertiary" textSize="70px">
+            Important Lessons
+          </Heading>
+          <List>
+            <ListItem textSize="30px">
+              Don't trust third-party libraries too much, use the official solutions whenever possible
+            </ListItem>
+            <ListItem textSize="30px">
+              Take advantage of the App lifecycle to release memory
+            </ListItem>
+            <ListItem textSize="30px">
+              Observables are not for everything, combine them with Promises
+            </ListItem>
+            <ListItem textSize="30px">
+              Master the call-site concept for `this` usage through component Classes
+            </ListItem>
+            <ListItem textSize="30px">
+              Service Workers save a lot of resources
+            </ListItem>
+            <ListItem textSize="30px">
+              ID Tracking, loop performace, services, lyfecyle, etc. matter a lot when handling too much data in the DOM
+            </ListItem>
+            <ListItem textSize="30px">
+              Reuse as much as possible since the beginning
+            </ListItem>
+            <ListItem textSize="30px">
+              Tests help but bugs are inevitable
+            </ListItem>
+            <ListItem textSize="30px">
+              Save one global state with services and manipulate data through them
+            </ListItem>
+          </List>
+        </Slide>
+        <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
           <Link
             href="http://jorandradefig.com/"
             target="_blank"
