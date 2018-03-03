@@ -121,6 +121,37 @@ export default class Presentation extends React.Component {
           </Text>
         </Slide>
         <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
+          <Heading size={1} lineHeight={1} textColor="tertiary">
+            Steps
+          </Heading>
+          <List>
+            <ListItem textSize="28px">
+              Scrape registree records from IMSS and SEDESOL databases
+            </ListItem>
+            <ListItem textSize="28px">
+              Build unique names dictionary
+            </ListItem>
+            <ListItem textSize="28px">
+              Fetch RNPED against names dictionary
+            </ListItem>
+            <ListItem textSize="28px">
+              Process fetched registree records names dictionary
+            </ListItem>
+            <ListItem textSize="28px">
+              Build names for RNPED registree records
+            </ListItem>
+            <ListItem textSize="28px">
+              Save named registree records to database
+            </ListItem>
+            <ListItem textSize="28px">
+              Build Web API
+            </ListItem>
+            <ListItem textSize="28px">
+              Build Web App
+            </ListItem>
+          </List>
+        </Slide>
+        <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
           <Link
             href="http://jorandradefig.com/"
             target="_blank"
