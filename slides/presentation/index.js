@@ -117,7 +117,7 @@ export default class Presentation extends React.Component {
             Problem
           </Heading>
           <Text margin="10px 0 0" textColor="primary" textSize="40px" size={1} bold>
-            How to name database rows which represent human beings?
+            How to name RNPED database rows which represent human beings?
           </Text>
         </Slide>
         <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
