@@ -110,6 +110,17 @@ export default class Presentation extends React.Component {
                 Python
               </Link>
             </ListItem>
+            <ListItem>
+              <Link
+                href="https://www.docker.com/"
+                target="_blank"
+                textColor="primary"
+                textSize="50px"
+                bold
+              >
+                Docker
+              </Link>
+            </ListItem>
           </List>
         </Slide>
         <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
