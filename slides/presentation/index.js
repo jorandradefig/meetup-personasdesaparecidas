@@ -51,6 +51,68 @@ export default class Presentation extends React.Component {
           </Link>
         </Slide>
         <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
+          <Heading size={1} lineHeight={1} textColor="tertiary">
+            Stack
+          </Heading>
+          <List>
+            <ListItem>
+              <Link
+                href="https://angular.io/"
+                target="_blank"
+                textColor="primary"
+                textSize="50px"
+                bold
+              >
+                Angular
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link
+                href="https://expressjs.com/"
+                target="_blank"
+                textColor="primary"
+                textSize="50px"
+                bold
+              >
+                Express
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link
+                href="https://www.mongodb.com/"
+                target="_blank"
+                textColor="primary"
+                textSize="50px"
+                bold
+              >
+                MongoDB
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link
+                href="https://www.postgresql.org/"
+                target="_blank"
+                textColor="primary"
+                textSize="50px"
+                bold
+              >
+                PostgreSQL
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link
+                href="https://www.python.org/"
+                target="_blank"
+                textColor="primary"
+                textSize="50px"
+                bold
+              >
+                Python
+              </Link>
+            </ListItem>
+          </List>
+        </Slide>
+        <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
           <Link
             href="http://jorandradefig.com/"
             target="_blank"
