@@ -44,18 +44,11 @@ export default class Presentation extends React.Component {
             target="_blank"
             margin="10px 0 0"
             textColor="tertiary"
-            size={1}
-            fit
+            textSize="40px"
             bold
           >
             https://personasdesaparecidas.org.mx
           </Link>
-        </Slide>
-        <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
-          <BlockQuote>
-            <Quote>Example Quote</Quote>
-            <Cite>Author</Cite>
-          </BlockQuote>
         </Slide>
       </Deck>
     );
