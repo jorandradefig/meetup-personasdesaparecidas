@@ -200,6 +200,11 @@ export default class Presentation extends React.Component {
           </List>
         </Slide>
         <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
+          <Heading size={1} lineHeight={1} textColor="tertiary" fit>
+            Demo
+          </Heading>
+        </Slide>
+        <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
           <Heading size={1} lineHeight={1} textColor="tertiary" textSize="70px">
             Important Lessons
           </Heading>
