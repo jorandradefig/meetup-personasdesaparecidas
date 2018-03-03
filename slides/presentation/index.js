@@ -22,9 +22,9 @@ require("normalize.css");
 
 const theme = createTheme({
   primary: "white",
-  secondary: "#1F2022",
-  tertiary: "#03A9FC",
-  quarternary: "#CECECE"
+  secondary: "#00719e",
+  tertiary: "#fee934",
+  quarternary: "#343a40"
 }, {
   primary: "Montserrat",
   secondary: "Helvetica"
