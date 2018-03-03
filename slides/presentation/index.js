@@ -152,6 +152,43 @@ export default class Presentation extends React.Component {
           </List>
         </Slide>
         <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
+          <Heading size={1} lineHeight={1} textColor="tertiary">
+            Web App
+          </Heading>
+          <List>
+            <ListItem textSize="30px">
+              CLI
+            </ListItem>
+            <ListItem textSize="30px">
+              Router
+            </ListItem>
+            <ListItem textSize="30px">
+              HTTP Client
+            </ListItem>
+            <ListItem textSize="30px">
+              Observables
+            </ListItem>
+            <ListItem textSize="30px">
+              Components
+            </ListItem>
+            <ListItem textSize="30px">
+              Services
+            </ListItem>
+            <ListItem textSize="30px">
+              Pipes
+            </ListItem>
+            <ListItem textSize="30px">
+              Manifest
+            </ListItem>
+            <ListItem textSize="30px">
+              Service Worker
+            </ListItem>
+            <ListItem textSize="30px">
+              Bootstrap
+            </ListItem>
+          </List>
+        </Slide>
+        <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
           <Link
             href="http://jorandradefig.com/"
             target="_blank"
