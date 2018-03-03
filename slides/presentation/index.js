@@ -236,6 +236,9 @@ export default class Presentation extends React.Component {
             <ListItem textSize="20px">
               Save one global state with services and manipulate data through them
             </ListItem>
+            <ListItem textSize="20px">
+              Take advantage of TypeScript and OOP
+            </ListItem>
           </List>
         </Slide>
         <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
