@@ -113,6 +113,14 @@ export default class Presentation extends React.Component {
           </List>
         </Slide>
         <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
+          <Heading size={1} lineHeight={1} textColor="tertiary">
+            Problem
+          </Heading>
+          <Text margin="10px 0 0" textColor="primary" textSize="40px" size={1} bold>
+            How to name database rows which represent human beings?
+          </Text>
+        </Slide>
+        <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
           <Link
             href="http://jorandradefig.com/"
             target="_blank"
