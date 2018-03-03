@@ -50,6 +50,17 @@ export default class Presentation extends React.Component {
             https://personasdesaparecidas.org.mx
           </Link>
         </Slide>
+        <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
+          <Link
+            href="http://jorandradefig.com/"
+            target="_blank"
+            textColor="tertiary"
+            textSize="70px"
+            bold
+          >
+            @jorandradefig
+          </Link>
+        </Slide>
       </Deck>
     );
   }
